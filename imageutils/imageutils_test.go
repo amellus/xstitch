@@ -55,3 +55,26 @@ func TestNumPixelsPerCell(t *testing.T) {
 		}
 	}
 }
+
+// type average_pixel_testcase struct {
+// 	Img image.Image
+// 	X uint
+// 	Y uint
+// 	Average color.Color
+// }
+
+// var uniform_red = image.Image.NewUniform(image.NRGBA{255, 0, 0, 1})
+
+// var average_pixel_testcases = []average_pixel_testcase {
+// 	{uniform_red, 0, 0, uniform_red},
+// }
+
+// func TestAveragePixelValue(t *testing.T) {
+// 	for _, c := range average_pixel_testcases {
+// 		v := AveragePixelValue(c.X, c.Y, c.Img)
+// 		if v != c.Average {
+// 			t.Error("For x =", c.X, "y =", c.Y)
+// 		}
+// 	}
+
+// }
